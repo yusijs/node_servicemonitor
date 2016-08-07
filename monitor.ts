@@ -64,5 +64,11 @@ interface ITest {
       hostname: string,
       command?: string
     }
-  }[]
+  }[],
+  mount: {
+    [name: string]: {
+      mountpoint: string,
+      command?: string
+    }
+  }
 }
